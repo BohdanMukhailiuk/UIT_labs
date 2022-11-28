@@ -13,14 +13,13 @@ def main():
     # x = -2.235 * 0.01
     # y = 2.23
     # z = 15.221
-    print("")
+
+    print("Тут-ту-ру")
     x = float(input("Введіть значення х: "))
     y = float(input("Введіть значення y: "))
     z = float(input("Введіть значення z: "))
     func = calculate(x, y, z)
     print("")
-
-
     return ("Результат програми: ", func)
 
 
